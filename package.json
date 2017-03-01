@@ -1,6 +1,6 @@
 {
   "name": "botmaster-test-fixtures",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fixtures to be used in botmaster package tests",
   "main": "index.js",
   "scripts": {
