@@ -140,6 +140,7 @@ module.exports = {
   videoMessage,
   textOnlyQuickReplyMessage,
   textAndImageURLQuickReplyMessage,
+  locationQuickReplyMessage,
   typingOnMessage,
   typingOffMessage,
   markSeenMessage,
