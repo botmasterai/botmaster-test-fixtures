@@ -1,6 +1,6 @@
 'use strict';
 
-const attachments = require('./attachments');
+const attachments = require('./attachment_fixtures');
 
 const textMessage = () => ({
   recipient: {

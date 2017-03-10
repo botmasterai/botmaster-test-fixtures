@@ -1,6 +1,6 @@
 'use strict';
 
-const attachments = require('./attachments');
+const attachments = require('./attachment_fixtures');
 
 /**
  * This file defines what incoming updates look like once they've been
