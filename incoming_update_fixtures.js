@@ -13,7 +13,7 @@ const attachments = require('./attachments');
  * sure the ids match each other etc
  *
  * !!! They all come as functions, as this assures you that new objects are
- * created everytime you have a need to have one.
+ * created every time you have a need to have one.
  */
 
 const textUpdate = rawUpdate => ({

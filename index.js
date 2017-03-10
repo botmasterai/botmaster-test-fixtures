@@ -1,11 +1,11 @@
 'use strict';
 
-const attachments = require('./attachments');
-const incomingUpdates = require('./incoming_updates');
-const outgoingMessages = require('./outgoing_messages');
+const attachmentFixtures = require('./attachment_fixtures');
+const incomingUpdateFixtures = require('./incoming_update_fixtures');
+const outgoingMessageFixtures = require('./outgoing_message_fixtures');
 
 module.exports = {
-  attachments,
-  incomingUpdates,
-  outgoingMessages,
+  attachmentFixtures,
+  incomingUpdateFixtures,
+  outgoingMessageFixtures,
 };
