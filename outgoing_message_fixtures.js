@@ -16,7 +16,7 @@ const audioMessage = () => ({
     id: 'user_id',
   },
   message: {
-    attachments: attachments.audioAttachment(),
+    attachment: attachments.audioAttachment(),
   },
 });
 
@@ -25,7 +25,7 @@ const fileMessage = () => ({
     id: 'user_id',
   },
   message: {
-    attachments: attachments.fileAttachment(),
+    attachment: attachments.fileAttachment(),
   },
 });
 
@@ -34,7 +34,7 @@ const imageMessage = () => ({
     id: 'user_id',
   },
   message: {
-    attachments: attachments.imageAttachment(),
+    attachment: attachments.imageAttachment(),
   },
 });
 
@@ -43,7 +43,7 @@ const videoMessage = () => ({
     id: 'user_id',
   },
   message: {
-    attachments: attachments.imageAttachment(),
+    attachment: attachments.imageAttachment(),
   },
 });
 
