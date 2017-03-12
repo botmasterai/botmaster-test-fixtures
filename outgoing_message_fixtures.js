@@ -7,7 +7,7 @@ const textMessage = () => ({
     id: 'user_id',
   },
   message: {
-    text: 'HelloWorld!',
+    text: 'Hello World!',
   },
 });
 
