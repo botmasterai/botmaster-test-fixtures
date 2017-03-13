@@ -117,14 +117,14 @@ const typingOffMessage = () => ({
   recipient: {
     id: 'user_id',
   },
-  sender_action: 'typing_on',
+  sender_action: 'typing_off',
 });
 
 const markSeenMessage = () => ({
   recipient: {
     id: 'user_id',
   },
-  sender_action: 'typing_on',
+  sender_action: 'mark_seen',
 });
 
 const outgoingMessageResponse = () => ({
