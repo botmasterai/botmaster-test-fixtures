@@ -52,7 +52,7 @@ const textOnlyQuickReplyMessage = () => ({
     id: 'user_id',
   },
   message: {
-    text: 'Pick one of the following:',
+    text: 'Please select one of:',
     quick_replies: [
       {
         content_type: 'text',
@@ -74,7 +74,7 @@ const textAndImageURLQuickReplyMessage = () => ({
     id: 'user_id',
   },
   message: {
-    text: 'Pick one of the following:',
+    text: 'Please select one of:',
     quick_replies: [
       {
         content_type: 'text',
